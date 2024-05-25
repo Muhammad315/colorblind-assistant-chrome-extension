@@ -1,7 +1,7 @@
 function applyColorblindFilter(type) {
-    // Append SVG filters to the document
-    if (!document.getElementById('colorblind-filters')) {
-      const svgFilters = `
+  // Append SVG filters to the document
+  if (!document.getElementById('colorblind-filters')) {
+    const svgFilters = `
         <svg id="colorblind-filters" xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none">
           <defs>
             <filter id="protanopia-filter">
@@ -28,35 +28,34 @@ function applyColorblindFilter(type) {
           </defs>
         </svg>
       `;
-      document.body.insertAdjacentHTML('beforeend', svgFilters);
-    }
-  
-    // Apply the selected filter
-    let filter = '';
-    switch (type) {
-      case 'protanopia':
-        filter = 'url(#protanopia-filter)';
-        break;
-      case 'deuteranopia':
-        filter = 'url(#deuteranopia-filter)';
-        break;
-      case 'tritanopia':
-        filter = 'url(#tritanopia-filter)';
-        break;
-      default:
-        filter = 'none';
-    }
-    document.documentElement.style.filter = filter;
+    document.body.insertAdjacentHTML('beforeend', svgFilters);
   }
-  
-  // Listen for storage changes to apply filters dynamically
-  chrome.storage.sync.get('colorblindType', (data) => {
-    applyColorblindFilter(data.colorblindType);
-  });
-  
-  chrome.storage.onChanged.addListener((changes) => {
-    if (changes.colorblindType) {
-      applyColorblindFilter(changes.colorblindType.newValue);
-    }
-  });
-  
+
+  // Apply the selected filter
+  let filter = '';
+  switch (type) {
+    case 'protanopia':
+      filter = 'url(#protanopia-filter)';
+      break;
+    case 'deuteranopia':
+      filter = 'url(#deuteranopia-filter)';
+      break;
+    case 'tritanopia':
+      filter = 'url(#tritanopia-filter)';
+      break;
+    default:
+      filter = 'none';
+  }
+  document.documentElement.style.filter = filter;
+}
+
+// Listen for storage changes to apply filters dynamically
+chrome.storage.sync.get('colorblindType', (data) => {
+  applyColorblindFilter(data.colorblindType);
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes.colorblindType) {
+    applyColorblindFilter(changes.colorblindType.newValue);
+  }
+});
