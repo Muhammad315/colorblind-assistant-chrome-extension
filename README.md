@@ -110,8 +110,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Feel free to open an issue if you have any questions or need further assistance!
 
-```
-
 ### Explanation
 
 - **Overview**: Provides a brief description of what the extension does.
