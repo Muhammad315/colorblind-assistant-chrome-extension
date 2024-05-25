@@ -109,15 +109,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to open an issue if you have any questions or need further assistance!
-
-### Explanation
-
-- **Overview**: Provides a brief description of what the extension does.
-- **Features**: Lists the main features of the extension.
-- **Screenshots**: Showcases the extension with images (placeholders included, update with actual paths).
-- **Installation**: Step-by-step instructions to install the extension from the repository.
-- **Usage**: Instructions on how to use the extension once installed.
-- **Development**: Information about the project structure and key files for developers.
-- **Contributing**: Guidelines for contributing to the project.
-- **License**: Licensing information for the project.
-- **Acknowledgements**: Credits for any resources or tools used.
