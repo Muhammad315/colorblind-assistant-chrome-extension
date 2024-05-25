@@ -16,11 +16,11 @@ Colorblind Assistant is a Chrome extension designed to assist colorblind users b
 
 ## Screenshots
 **Before Filter**
-![Screenshot 1](screenshots/screenshot-1.png)
+![Screenshot 1](screenshots/Screenshot-1.png)
 **Apply Filter:** Protanopia
-![Screenshot 2](screenshots/screenshot-2.png)
+![Screenshot 2](screenshots/Screenshot-2.png)
 **After Filter**
-![Screenshot 2](screenshots/screenshot-3.png)
+![Screenshot 2](screenshots/Screenshot-3.png)
 
 ## Installation
 
