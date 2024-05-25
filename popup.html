@@ -2,18 +2,25 @@
 <html>
 <head>
   <title>Colorblind Assistant</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="popup.css">
 </head>
-<body>
-  <h1>Colorblind Assistant</h1>
-  <select id="colorblind-type">
-    <option value="none">None</option>
-    <option value="protanopia">Protanopia</option>
-    <option value="deuteranopia">Deuteranopia</option>
-    <option value="tritanopia">Tritanopia</option>
-  </select>
-  <button id="apply">Apply</button>
-  <button id="remove">Remove</button>
+<body class="container">
+  <div class="text-center mt-5">
+    <h1 class="mb-4">Colorblind Assistant</h1>
+    <div class="form-group">
+      <label for="colorblind-type">Select Colorblind Type:</label>
+      <select class="form-control" id="colorblind-type">
+        <option value="none">None</option>
+        <option value="protanopia">Protanopia</option>
+        <option value="deuteranopia">Deuteranopia</option>
+        <option value="tritanopia">Tritanopia</option>
+      </select>
+    </div>
+    <button class="btn btn-primary mr-2" id="apply">Apply</button>
+    <button class="btn btn-secondary" id="remove">Remove</button>
+  </div>
+  
   <script src="popup.js"></script>
 </body>
 </html>
