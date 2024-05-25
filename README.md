@@ -1,6 +1,5 @@
 This README includes sections such as project overview, features, installation, usage, contribution guidelines, and licensing information. This will help you to understand and use this Chrome extension effectively.
 
-```markdown
 # Colorblind Assistant Chrome Extension
 
 ![Colorblind Assistant Logo](icons/icon128.png)
