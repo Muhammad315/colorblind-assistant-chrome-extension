@@ -101,6 +101,14 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
+## Credits
+
+Created by Muhammad Muzzamil Khan
+
+---
+
+Explore and contribute to PHP Product Manager to enhance its functionality. If you have questions or suggestions, please open an issue or contact khanmuhammadmuzzamil500@gmail.com
+
 ## Acknowledgements
 
 - Thanks to [Bootstrap](https://getbootstrap.com/) for providing the styling framework.
