@@ -26,11 +26,11 @@ Colorblind Assistant is a Chrome extension designed to assist colorblind users b
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/Muhammad315/colorblind-assistant.git
+   git clone https://github.com/muhammadmuzzamilkhan/colorblind-assistant-chrome-extension.git
    ```
 2. **Navigate to the Extension Folder**:
    ```sh
-   cd colorblind-assistant
+   cd colorblind-assistant-chrome-extension
    ```
 3. **Load the Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`.
@@ -49,7 +49,7 @@ Colorblind Assistant is a Chrome extension designed to assist colorblind users b
 ### Project Structure
 
 ```
-colorblind-assistant/
+colorblind-assistant-chrome-extension/
 │
 ├── background.js
 ├── content.js
@@ -84,7 +84,7 @@ Contributions are welcome! Please follow these steps to contribute:
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**:
    ```sh
-   git clone https://github.com/Muhammad315/colorblind-assistant.git
+   git clone https://github.com/muhammadmuzzamilkhan/colorblind-assistant-chrome-extension.git
    ```
 3. **Create a Branch**:
    ```sh
