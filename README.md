@@ -107,7 +107,7 @@ Created by Muhammad Muzzamil Khan
 
 ---
 
-Explore and contribute to PHP Product Manager to enhance its functionality. If you have questions or suggestions, please open an issue or contact khanmuhammadmuzzamil500@gmail.com
+Explore and contribute to ColorBlind Assistant Chrome Extension to enhance its functionality. If you have questions or suggestions, please open an issue or contact khanmuhammadmuzzamil500@gmail.com
 
 ## Acknowledgements
 
