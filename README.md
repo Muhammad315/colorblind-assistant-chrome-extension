@@ -97,10 +97,6 @@ Contributions are welcome! Please follow these steps to contribute:
    ```
 6. **Submit a Pull Request**: Open a pull request with a description of your changes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
 ## Credits
 
 Created by Muhammad Muzzamil Khan
@@ -109,10 +105,14 @@ Created by Muhammad Muzzamil Khan
 
 Explore and contribute to ColorBlind Assistant Chrome Extension to enhance its functionality. If you have questions or suggestions, please open an issue or contact khanmuhammadmuzzamil500@gmail.com
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
 ## Acknowledgements
 
 - Thanks to [Bootstrap](https://getbootstrap.com/) for providing the styling framework.
-- Icons made by [author](https://www.flaticon.com/authors/author) from [Flaticon](https://www.flaticon.com/).
+- Icons made by [Flat-icons.com](https://iconscout.com/contributors/flat-icons) from [IconScout](https://iconscout.com/icon/color-blind-2780619).
 
 ---
 
